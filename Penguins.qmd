@@ -1,0 +1,58 @@
+---
+title: "Penguins"
+format: html
+editor: visual
+---
+
+```{r}
+#| echo: false 
+#| message: false 
+#| warning: false 
+library(tidyverse)
+library(palmerpenguins)
+```
+
+## Single Trait-Distribution
+
+```{r}
+#| echo: false 
+#| message: false 
+#| warning: false 
+ggplot(data = penguins)+
+  geom_jitter(mapping=aes(x=bill_length_mm, y=species))
+
+
+
+
+```
+
+## Relationship between multiple traits
+
+```{r}
+#| echo: false 
+#| message: false 
+#| warning: false 
+ggplot(data = penguins)+
+  geom_point(mapping=aes(x=body_mass_g, y=flipper_length_mm,color=species))
+```
+
+| Column names      |
+|-------------------|
+| species           |
+| island            |
+| bill_length_mm    |
+| bill_depth_mm     |
+| flipper_length_mm |
+| body_mass_g       |
+| sex               |
+| year              |
+
+## Sexual Dimorphism
+
+```{r}
+#| echo: false 
+#| message: false 
+#| warning: false 
+ggplot(data = penguins)+
+  geom_path(mapping=aes(x=body_mass_g, y=species,color=sex))
+```
