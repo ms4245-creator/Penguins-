@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Penguins-",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "Penguins.html#relationship-between-multiple-traits",
+    "href": "Penguins.html#relationship-between-multiple-traits",
+    "title": "Penguins",
+    "section": "Relationship between multiple traits",
+    "text": "Relationship between multiple traits\n\n\n\n\n\n\n\n\n\n\n\n\nColumn names\n\n\n\n\nspecies\n\n\nisland\n\n\nbill_length_mm\n\n\nbill_depth_mm\n\n\nflipper_length_mm\n\n\nbody_mass_g\n\n\nsex\n\n\nyear"
+  },
+  {
+    "objectID": "Penguins.html#sexual-dimorphism",
+    "href": "Penguins.html#sexual-dimorphism",
+    "title": "Penguins",
+    "section": "Sexual Dimorphism",
+    "text": "Sexual Dimorphism"
+  }
+]
